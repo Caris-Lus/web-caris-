@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Personal Website - Express Yourself" />
+  <title>Express Yourself | My Personal Website</title>
+
+  <!-- Link external CSS -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <nav class="navbar">
+      <h1 class="logo">CARIS'S PORTFOLIO</h1>
+      <ul class="nav-links">
+        <li><a href="#home" class="active">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#gallery">Gallery</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <button id="dark-mode-toggle">🌙</button>
+    </nav>
+  </header>
+
+  <!-- Home Section -->
+  <section id="home" class="hero">
+    <img class="profile-photo"
+      src="C:/Users/Administrator/Desktop/caris docs/WhatsApp Image 2025-11-01 at 14.24.05.jpeg"
+      alt="Caris Lus - profile photo"
+      loading="lazy">
+    <h2>Hello, myself Caris Lus</h2>
+    <p>An engineering student at Fr. Conceicao Rodrigues College Of Engineering with a curious mind and a drive to build, learn, and create. This portfolio is a glimpse into my world — from coding experiments to creative projects that reflect who I am and what I love doing.</p>
+  </section>
+
+  <!-- About Section -->
+  <section id="about">
+    <h2>About Me</h2>
+    <p>When I’m not exploring new ideas in technology, I find joy in expressing myself through the harmonica — its melodies help me unwind and remind me that creativity comes in many forms. Music allows me to think freely and connect with emotions beyond words. I also love traveling to new places, discovering different cultures, and finding inspiration in the stories, people, and landscapes I encounter. These experiences shape my perspective and fuel my curiosity. I truly believe that learning is not limited to classrooms or textbooks; it happens through every challenge faced, every journey taken, and every sound or moment that leaves an impression on the heart.</p>
+  </section>
+
+  <!-- Gallery Section -->
+  <section id="gallery">
+    <h2>My Achievements & Gallery</h2>
+    <p>Here are some of my achievements and memorable moments.</p>
+    <div class="gallery-grid">
+      <div class="gallery-item">
+        <img src="C:/Users/Administrator/Desktop/caris docs/WhatsApp Image 2025-10-31 at 21.59.45.jpeg" alt="Achievement 1">
+        <p>Felicitated by Shri Rajan Naik, Hon’ble MLA of the Nallasopara–Virar region, in recognition of securing the first position in my region in the Class 12 Board Examinations.</p>
+      </div>
+      <div class="gallery-item">
+        <img src="C:/Users/Administrator/Desktop/caris docs/WhatsApp Image 2025-10-31 at 22.00.55.jpeg" alt="Achievement 2">
+        <p>Honoured at Eureka Science Academy’s Achievers Day Celebration for securing an outstanding 97.34 percentile in the MHT-CET examination.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact">
+    <h2>Contact Me</h2>
+    <form id="contact-form">
+      <label for="name">Name:</label>
+      <input type="text" id="name" required />
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" required />
+
+      <label for="message">Message:</label>
+      <textarea id="message" rows="4" required></textarea>
+
+      <button type="submit">Send</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Caris Lus | Designed by Caris Lus</p>
+  </footer>
+
+  <!-- Link external JavaScript -->
+  <script src="script.js"></script>
+</body>
+</html>
